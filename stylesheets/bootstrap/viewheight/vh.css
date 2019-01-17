@@ -1,4 +1,4 @@
-/** Created by Nicholas J. Phillips (LagSwitchedVirginity) @ 1/16/2019 Bulma.io hero inspired */
+/** Created by Nicholas J. Phillips (LagSwitchedVirginity) @ 1/16/2019 | Bulma.io hero inspired */
 /* container */
 .container.is-halfheight, .container.is-fullheight, .container-fluid.is-halfheight, .container-fluid.is-fullheight { align-items: center; display: flex; margin-bottom: 0; }
 .container.is-halfheight > .container, .container.is-halfheight > .container-fluid, .container-fluid.is-halfheight > .container, .container-fluid.is-halfheight > .container-fluid { flex-grow: 1; flex-shrink: 1; }
