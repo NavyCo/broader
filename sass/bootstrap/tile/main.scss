@@ -5,13 +5,30 @@
 .row {
 	.tile {
 		margin: 2px;
-		text-align: center;
+		&.tile-icon-img-only {
+			img:first-child {
+				margin-top: 5px;
+			}
+			img:last-child {
+				margin-bottom: 5px;
+			}
+		}
+		&.tile-centered {
+			text-align: center;
+		}
 	}
 	@each $name, $value in $bst-colors {
 		.tile-#{$name} {
 			@include contrasted($value);
 			border: darken($value, 10%) 2px solid;
-			text-align: center;
+
+			&.tile-icon-img-only {
+				@extend .tile.tile-icon-img-only;
+			}
+			&.tile-centered {
+				@extend .tile.tile-centered;
+			}
 		}
 	}
 }
+
