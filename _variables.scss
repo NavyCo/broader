@@ -1,0 +1,16 @@
+// Created by Nicholas J. Phillips (LagSwitchedVirginity) @ 1/16/2019
+
+// Everything starting with $bst is from node_modules/bootstrap/scss/_variables.scss
+$bst-grid-breakpoints: (
+		xs: 0,
+		sm: 576px,
+		md: 768px,
+		lg: 992px,
+		xl: 1200px
+);
+$bst-container-max-widths: (
+		sm: 540px,
+		md: 720px,
+		lg: 960px,
+		xl: 1140px
+);

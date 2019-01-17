@@ -1,0 +1,42 @@
+@import "../../../variables";
+// Footer
+footer {
+	&.is-halfheight,
+	&.is-fullheight {
+		align-items: center;
+		// display: flex;
+		margin-bottom: 0;
+	}
+
+	&.is-halfheight > .container,
+	&.is-halfheight > .container-fluid {
+		flex-grow: 1;
+		flex-shrink: 1;
+	}
+
+	&.is-halfheight {
+		min-height: 50vh;
+	}
+
+	&.is-fullheight {
+		min-height: 100vh;
+	}
+	@each $name, $value in $bst-container-max-widths {
+		&.is-fullheight-#{$name} {
+			@media (min-width: $value) {
+				min-height: 100vh;
+			}
+		}
+		&.is-halfheight-#{$name} {
+			@media (min-width: $value) {
+				min-height: 50vh;
+			}
+		}
+	}
+	@each $ind, $val in (1/4, 2/4, 3/4, 4/4) {
+		$percent: floor($ind*100);
+		&.is-#{$percent}vh {
+			min-height: #{$percent}vh;
+		}
+	}
+}

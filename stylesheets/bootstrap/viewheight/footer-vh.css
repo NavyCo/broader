@@ -1,0 +1,16 @@
+footer.is-halfheight, footer.is-fullheight { align-items: center; margin-bottom: 0; }
+footer.is-halfheight > .container, footer.is-halfheight > .container-fluid { flex-grow: 1; flex-shrink: 1; }
+footer.is-halfheight { min-height: 50vh; }
+footer.is-fullheight { min-height: 100vh; }
+@media (min-width: 540px) { footer.is-fullheight-sm { min-height: 100vh; } }
+@media (min-width: 540px) { footer.is-halfheight-sm { min-height: 50vh; } }
+@media (min-width: 720px) { footer.is-fullheight-md { min-height: 100vh; } }
+@media (min-width: 720px) { footer.is-halfheight-md { min-height: 50vh; } }
+@media (min-width: 960px) { footer.is-fullheight-lg { min-height: 100vh; } }
+@media (min-width: 960px) { footer.is-halfheight-lg { min-height: 50vh; } }
+@media (min-width: 1140px) { footer.is-fullheight-xl { min-height: 100vh; } }
+@media (min-width: 1140px) { footer.is-halfheight-xl { min-height: 50vh; } }
+footer.is-25vh { min-height: 25vh; }
+footer.is-50vh { min-height: 50vh; }
+footer.is-75vh { min-height: 75vh; }
+footer.is-100vh { min-height: 100vh; }

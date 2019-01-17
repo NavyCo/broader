@@ -1,0 +1,16 @@
+.jumbotron.is-halfheight, .jumbotron.is-fullheight, .jumbotron-fluid.is-halfheight, .jumbotron-fluid.is-fullheight { align-items: center; display: flex; margin-bottom: 0; }
+.jumbotron.is-halfheight > .container, .jumbotron.is-halfheight > .container-fluid, .jumbotron-fluid.is-halfheight > .container, .jumbotron-fluid.is-halfheight > .container-fluid { flex-grow: 1; flex-shrink: 1; }
+.jumbotron.is-halfheight, .jumbotron-fluid.is-halfheight { min-height: 50vh; }
+.jumbotron.is-fullheight, .jumbotron-fluid.is-fullheight { min-height: 100vh; }
+@media (min-width: 540px) { .jumbotron.is-fullheight-sm, .jumbotron-fluid.is-fullheight-sm { min-height: 100vh; } }
+@media (min-width: 540px) { .jumbotron.is-halfheight-sm, .jumbotron-fluid.is-halfheight-sm { min-height: 50vh; } }
+@media (min-width: 720px) { .jumbotron.is-fullheight-md, .jumbotron-fluid.is-fullheight-md { min-height: 100vh; } }
+@media (min-width: 720px) { .jumbotron.is-halfheight-md, .jumbotron-fluid.is-halfheight-md { min-height: 50vh; } }
+@media (min-width: 960px) { .jumbotron.is-fullheight-lg, .jumbotron-fluid.is-fullheight-lg { min-height: 100vh; } }
+@media (min-width: 960px) { .jumbotron.is-halfheight-lg, .jumbotron-fluid.is-halfheight-lg { min-height: 50vh; } }
+@media (min-width: 1140px) { .jumbotron.is-fullheight-xl, .jumbotron-fluid.is-fullheight-xl { min-height: 100vh; } }
+@media (min-width: 1140px) { .jumbotron.is-halfheight-xl, .jumbotron-fluid.is-halfheight-xl { min-height: 50vh; } }
+.jumbotron.is-25vh, .jumbotron-fluid.is-25vh { min-height: 25vh; }
+.jumbotron.is-50vh, .jumbotron-fluid.is-50vh { min-height: 50vh; }
+.jumbotron.is-75vh, .jumbotron-fluid.is-75vh { min-height: 75vh; }
+.jumbotron.is-100vh, .jumbotron-fluid.is-100vh { min-height: 100vh; }

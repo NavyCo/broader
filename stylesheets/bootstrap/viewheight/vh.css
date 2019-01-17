@@ -1,0 +1,54 @@
+/** Created by Nicholas J. Phillips (LagSwitchedVirginity) @ 1/16/2019 Bulma.io hero inspired */
+/* container */
+.container.is-halfheight, .container.is-fullheight, .container-fluid.is-halfheight, .container-fluid.is-fullheight { align-items: center; display: flex; margin-bottom: 0; }
+.container.is-halfheight > .container, .container.is-halfheight > .container-fluid, .container-fluid.is-halfheight > .container, .container-fluid.is-halfheight > .container-fluid { flex-grow: 1; flex-shrink: 1; }
+.container.is-halfheight, .container-fluid.is-halfheight { min-height: 50vh; content: ''; }
+.container.is-fullheight, .container-fluid.is-fullheight { min-height: 100vh; }
+@media (min-width: 540px) { .container.is-fullheight-sm, .container-fluid.is-fullheight-sm { min-height: 100vh; } }
+@media (min-width: 540px) { .container.is-halfheight-sm, .container-fluid.is-halfheight-sm { min-height: 50vh; } }
+@media (min-width: 720px) { .container.is-fullheight-md, .container-fluid.is-fullheight-md { min-height: 100vh; } }
+@media (min-width: 720px) { .container.is-halfheight-md, .container-fluid.is-halfheight-md { min-height: 50vh; } }
+@media (min-width: 960px) { .container.is-fullheight-lg, .container-fluid.is-fullheight-lg { min-height: 100vh; } }
+@media (min-width: 960px) { .container.is-halfheight-lg, .container-fluid.is-halfheight-lg { min-height: 50vh; } }
+@media (min-width: 1140px) { .container.is-fullheight-xl, .container-fluid.is-fullheight-xl { min-height: 100vh; } }
+@media (min-width: 1140px) { .container.is-halfheight-xl, .container-fluid.is-halfheight-xl { min-height: 50vh; } }
+.container.is-25vh, .container-fluid.is-25vh { min-height: 25vh; }
+.container.is-50vh, .container-fluid.is-50vh { min-height: 50vh; }
+.container.is-75vh, .container-fluid.is-75vh { min-height: 75vh; }
+.container.is-100vh, .container-fluid.is-100vh { min-height: 100vh; }
+
+/* jumbotron*/
+.jumbotron.is-halfheight, .jumbotron.is-fullheight, .jumbotron-fluid.is-halfheight, .jumbotron-fluid.is-fullheight { align-items: center; display: flex; margin-bottom: 0; }
+.jumbotron.is-halfheight > .container, .jumbotron.is-halfheight > .container-fluid, .jumbotron-fluid.is-halfheight > .container, .jumbotron-fluid.is-halfheight > .container-fluid { flex-grow: 1; flex-shrink: 1; }
+.jumbotron.is-halfheight, .jumbotron-fluid.is-halfheight { min-height: 50vh; }
+.jumbotron.is-fullheight, .jumbotron-fluid.is-fullheight { min-height: 100vh; }
+@media (min-width: 540px) { .jumbotron.is-fullheight-sm, .jumbotron-fluid.is-fullheight-sm { min-height: 100vh; } }
+@media (min-width: 540px) { .jumbotron.is-halfheight-sm, .jumbotron-fluid.is-halfheight-sm { min-height: 50vh; } }
+@media (min-width: 720px) { .jumbotron.is-fullheight-md, .jumbotron-fluid.is-fullheight-md { min-height: 100vh; } }
+@media (min-width: 720px) { .jumbotron.is-halfheight-md, .jumbotron-fluid.is-halfheight-md { min-height: 50vh; } }
+@media (min-width: 960px) { .jumbotron.is-fullheight-lg, .jumbotron-fluid.is-fullheight-lg { min-height: 100vh; } }
+@media (min-width: 960px) { .jumbotron.is-halfheight-lg, .jumbotron-fluid.is-halfheight-lg { min-height: 50vh; } }
+@media (min-width: 1140px) { .jumbotron.is-fullheight-xl, .jumbotron-fluid.is-fullheight-xl { min-height: 100vh; } }
+@media (min-width: 1140px) { .jumbotron.is-halfheight-xl, .jumbotron-fluid.is-halfheight-xl { min-height: 50vh; } }
+.jumbotron.is-25vh, .jumbotron-fluid.is-25vh { min-height: 25vh; }
+.jumbotron.is-50vh, .jumbotron-fluid.is-50vh { min-height: 50vh; }
+.jumbotron.is-75vh, .jumbotron-fluid.is-75vh { min-height: 75vh; }
+.jumbotron.is-100vh, .jumbotron-fluid.is-100vh { min-height: 100vh; }
+
+/* footer */
+footer.is-halfheight, footer.is-fullheight { align-items: center; margin-bottom: 0; }
+footer.is-halfheight > .container, footer.is-halfheight > .container-fluid { flex-grow: 1; flex-shrink: 1; }
+footer.is-halfheight { min-height: 50vh; }
+footer.is-fullheight { min-height: 100vh; }
+@media (min-width: 540px) { footer.is-fullheight-sm { min-height: 100vh; } }
+@media (min-width: 540px) { footer.is-halfheight-sm { min-height: 50vh; } }
+@media (min-width: 720px) { footer.is-fullheight-md { min-height: 100vh; } }
+@media (min-width: 720px) { footer.is-halfheight-md { min-height: 50vh; } }
+@media (min-width: 960px) { footer.is-fullheight-lg { min-height: 100vh; } }
+@media (min-width: 960px) { footer.is-halfheight-lg { min-height: 50vh; } }
+@media (min-width: 1140px) { footer.is-fullheight-xl { min-height: 100vh; } }
+@media (min-width: 1140px) { footer.is-halfheight-xl { min-height: 50vh; } }
+footer.is-25vh { min-height: 25vh; }
+footer.is-50vh { min-height: 50vh; }
+footer.is-75vh { min-height: 75vh; }
+footer.is-100vh { min-height: 100vh; }
