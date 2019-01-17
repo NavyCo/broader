@@ -39,5 +39,12 @@
 		&.is-#{$percent}vh {
 			min-height: #{$percent}vh;
 		}
+		@each $name, $value in $bst-container-max-widths {
+			&.is-#{$percent}vh-#{$name} {
+				@media (min-width: $value) {
+					min-height: 100vh;
+				}
+			}
+		}
 	}
 }
