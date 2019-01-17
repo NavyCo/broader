@@ -11,20 +11,20 @@
 @media (min-width: 1140px) { .container.is-fullheight-xl, .container-fluid.is-fullheight-xl { min-height: 100vh; } }
 @media (min-width: 1140px) { .container.is-halfheight-xl, .container-fluid.is-halfheight-xl { min-height: 50vh; } }
 .container.is-25vh, .container-fluid.is-25vh { min-height: 25vh; }
-@media (min-width: 540px) { .container.is-25vh-sm, .container-fluid.is-25vh-sm { min-height: 100vh; } }
-@media (min-width: 720px) { .container.is-25vh-md, .container-fluid.is-25vh-md { min-height: 100vh; } }
-@media (min-width: 960px) { .container.is-25vh-lg, .container-fluid.is-25vh-lg { min-height: 100vh; } }
-@media (min-width: 1140px) { .container.is-25vh-xl, .container-fluid.is-25vh-xl { min-height: 100vh; } }
+@media (min-width: 540px) { .container.is-25vh-sm, .container-fluid.is-25vh-sm { min-height: 25vh; } }
+@media (min-width: 720px) { .container.is-25vh-md, .container-fluid.is-25vh-md { min-height: 25vh; } }
+@media (min-width: 960px) { .container.is-25vh-lg, .container-fluid.is-25vh-lg { min-height: 25vh; } }
+@media (min-width: 1140px) { .container.is-25vh-xl, .container-fluid.is-25vh-xl { min-height: 25vh; } }
 .container.is-50vh, .container-fluid.is-50vh { min-height: 50vh; }
-@media (min-width: 540px) { .container.is-50vh-sm, .container-fluid.is-50vh-sm { min-height: 100vh; } }
-@media (min-width: 720px) { .container.is-50vh-md, .container-fluid.is-50vh-md { min-height: 100vh; } }
-@media (min-width: 960px) { .container.is-50vh-lg, .container-fluid.is-50vh-lg { min-height: 100vh; } }
-@media (min-width: 1140px) { .container.is-50vh-xl, .container-fluid.is-50vh-xl { min-height: 100vh; } }
+@media (min-width: 540px) { .container.is-50vh-sm, .container-fluid.is-50vh-sm { min-height: 50vh; } }
+@media (min-width: 720px) { .container.is-50vh-md, .container-fluid.is-50vh-md { min-height: 50vh; } }
+@media (min-width: 960px) { .container.is-50vh-lg, .container-fluid.is-50vh-lg { min-height: 50vh; } }
+@media (min-width: 1140px) { .container.is-50vh-xl, .container-fluid.is-50vh-xl { min-height: 50vh; } }
 .container.is-75vh, .container-fluid.is-75vh { min-height: 75vh; }
-@media (min-width: 540px) { .container.is-75vh-sm, .container-fluid.is-75vh-sm { min-height: 100vh; } }
-@media (min-width: 720px) { .container.is-75vh-md, .container-fluid.is-75vh-md { min-height: 100vh; } }
-@media (min-width: 960px) { .container.is-75vh-lg, .container-fluid.is-75vh-lg { min-height: 100vh; } }
-@media (min-width: 1140px) { .container.is-75vh-xl, .container-fluid.is-75vh-xl { min-height: 100vh; } }
+@media (min-width: 540px) { .container.is-75vh-sm, .container-fluid.is-75vh-sm { min-height: 75vh; } }
+@media (min-width: 720px) { .container.is-75vh-md, .container-fluid.is-75vh-md { min-height: 75vh; } }
+@media (min-width: 960px) { .container.is-75vh-lg, .container-fluid.is-75vh-lg { min-height: 75vh; } }
+@media (min-width: 1140px) { .container.is-75vh-xl, .container-fluid.is-75vh-xl { min-height: 75vh; } }
 .container.is-100vh, .container-fluid.is-100vh { min-height: 100vh; }
 @media (min-width: 540px) { .container.is-100vh-sm, .container-fluid.is-100vh-sm { min-height: 100vh; } }
 @media (min-width: 720px) { .container.is-100vh-md, .container-fluid.is-100vh-md { min-height: 100vh; } }

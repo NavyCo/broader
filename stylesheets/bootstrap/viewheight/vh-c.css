@@ -14,20 +14,20 @@
 @media (min-width: 1140px) { .container.is-fullheight-xl, .container-fluid.is-fullheight-xl { min-height: 100vh; } }
 @media (min-width: 1140px) { .container.is-halfheight-xl, .container-fluid.is-halfheight-xl { min-height: 50vh; } }
 .container.is-25vh, .container-fluid.is-25vh { min-height: 25vh; }
-@media (min-width: 540px) { .container.is-25vh-sm, .container-fluid.is-25vh-sm { min-height: 100vh; } }
-@media (min-width: 720px) { .container.is-25vh-md, .container-fluid.is-25vh-md { min-height: 100vh; } }
-@media (min-width: 960px) { .container.is-25vh-lg, .container-fluid.is-25vh-lg { min-height: 100vh; } }
-@media (min-width: 1140px) { .container.is-25vh-xl, .container-fluid.is-25vh-xl { min-height: 100vh; } }
+@media (min-width: 540px) { .container.is-25vh-sm, .container-fluid.is-25vh-sm { min-height: 25vh; } }
+@media (min-width: 720px) { .container.is-25vh-md, .container-fluid.is-25vh-md { min-height: 25vh; } }
+@media (min-width: 960px) { .container.is-25vh-lg, .container-fluid.is-25vh-lg { min-height: 25vh; } }
+@media (min-width: 1140px) { .container.is-25vh-xl, .container-fluid.is-25vh-xl { min-height: 25vh; } }
 .container.is-50vh, .container-fluid.is-50vh { min-height: 50vh; }
-@media (min-width: 540px) { .container.is-50vh-sm, .container-fluid.is-50vh-sm { min-height: 100vh; } }
-@media (min-width: 720px) { .container.is-50vh-md, .container-fluid.is-50vh-md { min-height: 100vh; } }
-@media (min-width: 960px) { .container.is-50vh-lg, .container-fluid.is-50vh-lg { min-height: 100vh; } }
-@media (min-width: 1140px) { .container.is-50vh-xl, .container-fluid.is-50vh-xl { min-height: 100vh; } }
+@media (min-width: 540px) { .container.is-50vh-sm, .container-fluid.is-50vh-sm { min-height: 50vh; } }
+@media (min-width: 720px) { .container.is-50vh-md, .container-fluid.is-50vh-md { min-height: 50vh; } }
+@media (min-width: 960px) { .container.is-50vh-lg, .container-fluid.is-50vh-lg { min-height: 50vh; } }
+@media (min-width: 1140px) { .container.is-50vh-xl, .container-fluid.is-50vh-xl { min-height: 50vh; } }
 .container.is-75vh, .container-fluid.is-75vh { min-height: 75vh; }
-@media (min-width: 540px) { .container.is-75vh-sm, .container-fluid.is-75vh-sm { min-height: 100vh; } }
-@media (min-width: 720px) { .container.is-75vh-md, .container-fluid.is-75vh-md { min-height: 100vh; } }
-@media (min-width: 960px) { .container.is-75vh-lg, .container-fluid.is-75vh-lg { min-height: 100vh; } }
-@media (min-width: 1140px) { .container.is-75vh-xl, .container-fluid.is-75vh-xl { min-height: 100vh; } }
+@media (min-width: 540px) { .container.is-75vh-sm, .container-fluid.is-75vh-sm { min-height: 75vh; } }
+@media (min-width: 720px) { .container.is-75vh-md, .container-fluid.is-75vh-md { min-height: 75vh; } }
+@media (min-width: 960px) { .container.is-75vh-lg, .container-fluid.is-75vh-lg { min-height: 75vh; } }
+@media (min-width: 1140px) { .container.is-75vh-xl, .container-fluid.is-75vh-xl { min-height: 75vh; } }
 .container.is-100vh, .container-fluid.is-100vh { min-height: 100vh; }
 @media (min-width: 540px) { .container.is-100vh-sm, .container-fluid.is-100vh-sm { min-height: 100vh; } }
 @media (min-width: 720px) { .container.is-100vh-md, .container-fluid.is-100vh-md { min-height: 100vh; } }
@@ -48,20 +48,20 @@
 @media (min-width: 1140px) { .jumbotron.is-fullheight-xl, .jumbotron-fluid.is-fullheight-xl { min-height: 100vh; } }
 @media (min-width: 1140px) { .jumbotron.is-halfheight-xl, .jumbotron-fluid.is-halfheight-xl { min-height: 50vh; } }
 .jumbotron.is-25vh, .jumbotron-fluid.is-25vh { min-height: 25vh; }
-@media (min-width: 540px) { .jumbotron.is-25vh-sm, .jumbotron-fluid.is-25vh-sm { min-height: 100vh; } }
-@media (min-width: 720px) { .jumbotron.is-25vh-md, .jumbotron-fluid.is-25vh-md { min-height: 100vh; } }
-@media (min-width: 960px) { .jumbotron.is-25vh-lg, .jumbotron-fluid.is-25vh-lg { min-height: 100vh; } }
-@media (min-width: 1140px) { .jumbotron.is-25vh-xl, .jumbotron-fluid.is-25vh-xl { min-height: 100vh; } }
+@media (min-width: 540px) { .jumbotron.is-25vh-sm, .jumbotron-fluid.is-25vh-sm { min-height: 25vh; } }
+@media (min-width: 720px) { .jumbotron.is-25vh-md, .jumbotron-fluid.is-25vh-md { min-height: 25vh; } }
+@media (min-width: 960px) { .jumbotron.is-25vh-lg, .jumbotron-fluid.is-25vh-lg { min-height: 25vh; } }
+@media (min-width: 1140px) { .jumbotron.is-25vh-xl, .jumbotron-fluid.is-25vh-xl { min-height: 25vh; } }
 .jumbotron.is-50vh, .jumbotron-fluid.is-50vh { min-height: 50vh; }
-@media (min-width: 540px) { .jumbotron.is-50vh-sm, .jumbotron-fluid.is-50vh-sm { min-height: 100vh; } }
-@media (min-width: 720px) { .jumbotron.is-50vh-md, .jumbotron-fluid.is-50vh-md { min-height: 100vh; } }
-@media (min-width: 960px) { .jumbotron.is-50vh-lg, .jumbotron-fluid.is-50vh-lg { min-height: 100vh; } }
-@media (min-width: 1140px) { .jumbotron.is-50vh-xl, .jumbotron-fluid.is-50vh-xl { min-height: 100vh; } }
+@media (min-width: 540px) { .jumbotron.is-50vh-sm, .jumbotron-fluid.is-50vh-sm { min-height: 50vh; } }
+@media (min-width: 720px) { .jumbotron.is-50vh-md, .jumbotron-fluid.is-50vh-md { min-height: 50vh; } }
+@media (min-width: 960px) { .jumbotron.is-50vh-lg, .jumbotron-fluid.is-50vh-lg { min-height: 50vh; } }
+@media (min-width: 1140px) { .jumbotron.is-50vh-xl, .jumbotron-fluid.is-50vh-xl { min-height: 50vh; } }
 .jumbotron.is-75vh, .jumbotron-fluid.is-75vh { min-height: 75vh; }
-@media (min-width: 540px) { .jumbotron.is-75vh-sm, .jumbotron-fluid.is-75vh-sm { min-height: 100vh; } }
-@media (min-width: 720px) { .jumbotron.is-75vh-md, .jumbotron-fluid.is-75vh-md { min-height: 100vh; } }
-@media (min-width: 960px) { .jumbotron.is-75vh-lg, .jumbotron-fluid.is-75vh-lg { min-height: 100vh; } }
-@media (min-width: 1140px) { .jumbotron.is-75vh-xl, .jumbotron-fluid.is-75vh-xl { min-height: 100vh; } }
+@media (min-width: 540px) { .jumbotron.is-75vh-sm, .jumbotron-fluid.is-75vh-sm { min-height: 75vh; } }
+@media (min-width: 720px) { .jumbotron.is-75vh-md, .jumbotron-fluid.is-75vh-md { min-height: 75vh; } }
+@media (min-width: 960px) { .jumbotron.is-75vh-lg, .jumbotron-fluid.is-75vh-lg { min-height: 75vh; } }
+@media (min-width: 1140px) { .jumbotron.is-75vh-xl, .jumbotron-fluid.is-75vh-xl { min-height: 75vh; } }
 .jumbotron.is-100vh, .jumbotron-fluid.is-100vh { min-height: 100vh; }
 @media (min-width: 540px) { .jumbotron.is-100vh-sm, .jumbotron-fluid.is-100vh-sm { min-height: 100vh; } }
 @media (min-width: 720px) { .jumbotron.is-100vh-md, .jumbotron-fluid.is-100vh-md { min-height: 100vh; } }
@@ -82,20 +82,20 @@ footer.is-fullheight { min-height: 100vh; }
 @media (min-width: 1140px) { footer.is-fullheight-xl { min-height: 100vh; } }
 @media (min-width: 1140px) { footer.is-halfheight-xl { min-height: 50vh; } }
 footer.is-25vh { min-height: 25vh; }
-@media (min-width: 540px) { footer.is-25vh-sm { min-height: 100vh; } }
-@media (min-width: 720px) { footer.is-25vh-md { min-height: 100vh; } }
-@media (min-width: 960px) { footer.is-25vh-lg { min-height: 100vh; } }
-@media (min-width: 1140px) { footer.is-25vh-xl { min-height: 100vh; } }
+@media (min-width: 540px) { footer.is-25vh-sm { min-height: 25vh; } }
+@media (min-width: 720px) { footer.is-25vh-md { min-height: 25vh; } }
+@media (min-width: 960px) { footer.is-25vh-lg { min-height: 25vh; } }
+@media (min-width: 1140px) { footer.is-25vh-xl { min-height: 25vh; } }
 footer.is-50vh { min-height: 50vh; }
-@media (min-width: 540px) { footer.is-50vh-sm { min-height: 100vh; } }
-@media (min-width: 720px) { footer.is-50vh-md { min-height: 100vh; } }
-@media (min-width: 960px) { footer.is-50vh-lg { min-height: 100vh; } }
-@media (min-width: 1140px) { footer.is-50vh-xl { min-height: 100vh; } }
+@media (min-width: 540px) { footer.is-50vh-sm { min-height: 50vh; } }
+@media (min-width: 720px) { footer.is-50vh-md { min-height: 50vh; } }
+@media (min-width: 960px) { footer.is-50vh-lg { min-height: 50vh; } }
+@media (min-width: 1140px) { footer.is-50vh-xl { min-height: 50vh; } }
 footer.is-75vh { min-height: 75vh; }
-@media (min-width: 540px) { footer.is-75vh-sm { min-height: 100vh; } }
-@media (min-width: 720px) { footer.is-75vh-md { min-height: 100vh; } }
-@media (min-width: 960px) { footer.is-75vh-lg { min-height: 100vh; } }
-@media (min-width: 1140px) { footer.is-75vh-xl { min-height: 100vh; } }
+@media (min-width: 540px) { footer.is-75vh-sm { min-height: 75vh; } }
+@media (min-width: 720px) { footer.is-75vh-md { min-height: 75vh; } }
+@media (min-width: 960px) { footer.is-75vh-lg { min-height: 75vh; } }
+@media (min-width: 1140px) { footer.is-75vh-xl { min-height: 75vh; } }
 footer.is-100vh { min-height: 100vh; }
 @media (min-width: 540px) { footer.is-100vh-sm { min-height: 100vh; } }
 @media (min-width: 720px) { footer.is-100vh-md { min-height: 100vh; } }
@@ -117,20 +117,20 @@ footer.is-100vh { min-height: 100vh; }
 @media (min-width: 1140px) { .highlight-blue.is-fullheight-xl, .highlight-clean.is-fullheight-xl, .highlight-phone.is-fullheight-xl { min-height: 100vh; } }
 @media (min-width: 1140px) { .highlight-blue.is-halfheight-xl, .highlight-clean.is-halfheight-xl, .highlight-phone.is-halfheight-xl { min-height: 50vh; } }
 .highlight-blue.is-25vh, .highlight-clean.is-25vh, .highlight-phone.is-25vh { min-height: 25vh; }
-@media (min-width: 540px) { .highlight-blue.is-25vh-sm, .highlight-clean.is-25vh-sm, .highlight-phone.is-25vh-sm { min-height: 100vh; } }
-@media (min-width: 720px) { .highlight-blue.is-25vh-md, .highlight-clean.is-25vh-md, .highlight-phone.is-25vh-md { min-height: 100vh; } }
-@media (min-width: 960px) { .highlight-blue.is-25vh-lg, .highlight-clean.is-25vh-lg, .highlight-phone.is-25vh-lg { min-height: 100vh; } }
-@media (min-width: 1140px) { .highlight-blue.is-25vh-xl, .highlight-clean.is-25vh-xl, .highlight-phone.is-25vh-xl { min-height: 100vh; } }
+@media (min-width: 540px) { .highlight-blue.is-25vh-sm, .highlight-clean.is-25vh-sm, .highlight-phone.is-25vh-sm { min-height: 25vh; } }
+@media (min-width: 720px) { .highlight-blue.is-25vh-md, .highlight-clean.is-25vh-md, .highlight-phone.is-25vh-md { min-height: 25vh; } }
+@media (min-width: 960px) { .highlight-blue.is-25vh-lg, .highlight-clean.is-25vh-lg, .highlight-phone.is-25vh-lg { min-height: 25vh; } }
+@media (min-width: 1140px) { .highlight-blue.is-25vh-xl, .highlight-clean.is-25vh-xl, .highlight-phone.is-25vh-xl { min-height: 25vh; } }
 .highlight-blue.is-50vh, .highlight-clean.is-50vh, .highlight-phone.is-50vh { min-height: 50vh; }
-@media (min-width: 540px) { .highlight-blue.is-50vh-sm, .highlight-clean.is-50vh-sm, .highlight-phone.is-50vh-sm { min-height: 100vh; } }
-@media (min-width: 720px) { .highlight-blue.is-50vh-md, .highlight-clean.is-50vh-md, .highlight-phone.is-50vh-md { min-height: 100vh; } }
-@media (min-width: 960px) { .highlight-blue.is-50vh-lg, .highlight-clean.is-50vh-lg, .highlight-phone.is-50vh-lg { min-height: 100vh; } }
-@media (min-width: 1140px) { .highlight-blue.is-50vh-xl, .highlight-clean.is-50vh-xl, .highlight-phone.is-50vh-xl { min-height: 100vh; } }
+@media (min-width: 540px) { .highlight-blue.is-50vh-sm, .highlight-clean.is-50vh-sm, .highlight-phone.is-50vh-sm { min-height: 50vh; } }
+@media (min-width: 720px) { .highlight-blue.is-50vh-md, .highlight-clean.is-50vh-md, .highlight-phone.is-50vh-md { min-height: 50vh; } }
+@media (min-width: 960px) { .highlight-blue.is-50vh-lg, .highlight-clean.is-50vh-lg, .highlight-phone.is-50vh-lg { min-height: 50vh; } }
+@media (min-width: 1140px) { .highlight-blue.is-50vh-xl, .highlight-clean.is-50vh-xl, .highlight-phone.is-50vh-xl { min-height: 50vh; } }
 .highlight-blue.is-75vh, .highlight-clean.is-75vh, .highlight-phone.is-75vh { min-height: 75vh; }
-@media (min-width: 540px) { .highlight-blue.is-75vh-sm, .highlight-clean.is-75vh-sm, .highlight-phone.is-75vh-sm { min-height: 100vh; } }
-@media (min-width: 720px) { .highlight-blue.is-75vh-md, .highlight-clean.is-75vh-md, .highlight-phone.is-75vh-md { min-height: 100vh; } }
-@media (min-width: 960px) { .highlight-blue.is-75vh-lg, .highlight-clean.is-75vh-lg, .highlight-phone.is-75vh-lg { min-height: 100vh; } }
-@media (min-width: 1140px) { .highlight-blue.is-75vh-xl, .highlight-clean.is-75vh-xl, .highlight-phone.is-75vh-xl { min-height: 100vh; } }
+@media (min-width: 540px) { .highlight-blue.is-75vh-sm, .highlight-clean.is-75vh-sm, .highlight-phone.is-75vh-sm { min-height: 75vh; } }
+@media (min-width: 720px) { .highlight-blue.is-75vh-md, .highlight-clean.is-75vh-md, .highlight-phone.is-75vh-md { min-height: 75vh; } }
+@media (min-width: 960px) { .highlight-blue.is-75vh-lg, .highlight-clean.is-75vh-lg, .highlight-phone.is-75vh-lg { min-height: 75vh; } }
+@media (min-width: 1140px) { .highlight-blue.is-75vh-xl, .highlight-clean.is-75vh-xl, .highlight-phone.is-75vh-xl { min-height: 75vh; } }
 .highlight-blue.is-100vh, .highlight-clean.is-100vh, .highlight-phone.is-100vh { min-height: 100vh; }
 @media (min-width: 540px) { .highlight-blue.is-100vh-sm, .highlight-clean.is-100vh-sm, .highlight-phone.is-100vh-sm { min-height: 100vh; } }
 @media (min-width: 720px) { .highlight-blue.is-100vh-md, .highlight-clean.is-100vh-md, .highlight-phone.is-100vh-md { min-height: 100vh; } }

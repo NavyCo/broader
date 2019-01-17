@@ -11,20 +11,20 @@ footer.is-fullheight { min-height: 100vh; }
 @media (min-width: 1140px) { footer.is-fullheight-xl { min-height: 100vh; } }
 @media (min-width: 1140px) { footer.is-halfheight-xl { min-height: 50vh; } }
 footer.is-25vh { min-height: 25vh; }
-@media (min-width: 540px) { footer.is-25vh-sm { min-height: 100vh; } }
-@media (min-width: 720px) { footer.is-25vh-md { min-height: 100vh; } }
-@media (min-width: 960px) { footer.is-25vh-lg { min-height: 100vh; } }
-@media (min-width: 1140px) { footer.is-25vh-xl { min-height: 100vh; } }
+@media (min-width: 540px) { footer.is-25vh-sm { min-height: 25vh; } }
+@media (min-width: 720px) { footer.is-25vh-md { min-height: 25vh; } }
+@media (min-width: 960px) { footer.is-25vh-lg { min-height: 25vh; } }
+@media (min-width: 1140px) { footer.is-25vh-xl { min-height: 25vh; } }
 footer.is-50vh { min-height: 50vh; }
-@media (min-width: 540px) { footer.is-50vh-sm { min-height: 100vh; } }
-@media (min-width: 720px) { footer.is-50vh-md { min-height: 100vh; } }
-@media (min-width: 960px) { footer.is-50vh-lg { min-height: 100vh; } }
-@media (min-width: 1140px) { footer.is-50vh-xl { min-height: 100vh; } }
+@media (min-width: 540px) { footer.is-50vh-sm { min-height: 50vh; } }
+@media (min-width: 720px) { footer.is-50vh-md { min-height: 50vh; } }
+@media (min-width: 960px) { footer.is-50vh-lg { min-height: 50vh; } }
+@media (min-width: 1140px) { footer.is-50vh-xl { min-height: 50vh; } }
 footer.is-75vh { min-height: 75vh; }
-@media (min-width: 540px) { footer.is-75vh-sm { min-height: 100vh; } }
-@media (min-width: 720px) { footer.is-75vh-md { min-height: 100vh; } }
-@media (min-width: 960px) { footer.is-75vh-lg { min-height: 100vh; } }
-@media (min-width: 1140px) { footer.is-75vh-xl { min-height: 100vh; } }
+@media (min-width: 540px) { footer.is-75vh-sm { min-height: 75vh; } }
+@media (min-width: 720px) { footer.is-75vh-md { min-height: 75vh; } }
+@media (min-width: 960px) { footer.is-75vh-lg { min-height: 75vh; } }
+@media (min-width: 1140px) { footer.is-75vh-xl { min-height: 75vh; } }
 footer.is-100vh { min-height: 100vh; }
 @media (min-width: 540px) { footer.is-100vh-sm { min-height: 100vh; } }
 @media (min-width: 720px) { footer.is-100vh-md { min-height: 100vh; } }

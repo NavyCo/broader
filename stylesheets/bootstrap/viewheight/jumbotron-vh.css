@@ -11,20 +11,20 @@
 @media (min-width: 1140px) { .jumbotron.is-fullheight-xl, .jumbotron-fluid.is-fullheight-xl { min-height: 100vh; } }
 @media (min-width: 1140px) { .jumbotron.is-halfheight-xl, .jumbotron-fluid.is-halfheight-xl { min-height: 50vh; } }
 .jumbotron.is-25vh, .jumbotron-fluid.is-25vh { min-height: 25vh; }
-@media (min-width: 540px) { .jumbotron.is-25vh-sm, .jumbotron-fluid.is-25vh-sm { min-height: 100vh; } }
-@media (min-width: 720px) { .jumbotron.is-25vh-md, .jumbotron-fluid.is-25vh-md { min-height: 100vh; } }
-@media (min-width: 960px) { .jumbotron.is-25vh-lg, .jumbotron-fluid.is-25vh-lg { min-height: 100vh; } }
-@media (min-width: 1140px) { .jumbotron.is-25vh-xl, .jumbotron-fluid.is-25vh-xl { min-height: 100vh; } }
+@media (min-width: 540px) { .jumbotron.is-25vh-sm, .jumbotron-fluid.is-25vh-sm { min-height: 25vh; } }
+@media (min-width: 720px) { .jumbotron.is-25vh-md, .jumbotron-fluid.is-25vh-md { min-height: 25vh; } }
+@media (min-width: 960px) { .jumbotron.is-25vh-lg, .jumbotron-fluid.is-25vh-lg { min-height: 25vh; } }
+@media (min-width: 1140px) { .jumbotron.is-25vh-xl, .jumbotron-fluid.is-25vh-xl { min-height: 25vh; } }
 .jumbotron.is-50vh, .jumbotron-fluid.is-50vh { min-height: 50vh; }
-@media (min-width: 540px) { .jumbotron.is-50vh-sm, .jumbotron-fluid.is-50vh-sm { min-height: 100vh; } }
-@media (min-width: 720px) { .jumbotron.is-50vh-md, .jumbotron-fluid.is-50vh-md { min-height: 100vh; } }
-@media (min-width: 960px) { .jumbotron.is-50vh-lg, .jumbotron-fluid.is-50vh-lg { min-height: 100vh; } }
-@media (min-width: 1140px) { .jumbotron.is-50vh-xl, .jumbotron-fluid.is-50vh-xl { min-height: 100vh; } }
+@media (min-width: 540px) { .jumbotron.is-50vh-sm, .jumbotron-fluid.is-50vh-sm { min-height: 50vh; } }
+@media (min-width: 720px) { .jumbotron.is-50vh-md, .jumbotron-fluid.is-50vh-md { min-height: 50vh; } }
+@media (min-width: 960px) { .jumbotron.is-50vh-lg, .jumbotron-fluid.is-50vh-lg { min-height: 50vh; } }
+@media (min-width: 1140px) { .jumbotron.is-50vh-xl, .jumbotron-fluid.is-50vh-xl { min-height: 50vh; } }
 .jumbotron.is-75vh, .jumbotron-fluid.is-75vh { min-height: 75vh; }
-@media (min-width: 540px) { .jumbotron.is-75vh-sm, .jumbotron-fluid.is-75vh-sm { min-height: 100vh; } }
-@media (min-width: 720px) { .jumbotron.is-75vh-md, .jumbotron-fluid.is-75vh-md { min-height: 100vh; } }
-@media (min-width: 960px) { .jumbotron.is-75vh-lg, .jumbotron-fluid.is-75vh-lg { min-height: 100vh; } }
-@media (min-width: 1140px) { .jumbotron.is-75vh-xl, .jumbotron-fluid.is-75vh-xl { min-height: 100vh; } }
+@media (min-width: 540px) { .jumbotron.is-75vh-sm, .jumbotron-fluid.is-75vh-sm { min-height: 75vh; } }
+@media (min-width: 720px) { .jumbotron.is-75vh-md, .jumbotron-fluid.is-75vh-md { min-height: 75vh; } }
+@media (min-width: 960px) { .jumbotron.is-75vh-lg, .jumbotron-fluid.is-75vh-lg { min-height: 75vh; } }
+@media (min-width: 1140px) { .jumbotron.is-75vh-xl, .jumbotron-fluid.is-75vh-xl { min-height: 75vh; } }
 .jumbotron.is-100vh, .jumbotron-fluid.is-100vh { min-height: 100vh; }
 @media (min-width: 540px) { .jumbotron.is-100vh-sm, .jumbotron-fluid.is-100vh-sm { min-height: 100vh; } }
 @media (min-width: 720px) { .jumbotron.is-100vh-md, .jumbotron-fluid.is-100vh-md { min-height: 100vh; } }
