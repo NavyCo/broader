@@ -1,0 +1,15 @@
+.row .tile { margin: 2px; text-align: center; }
+.row .tile-blue { background-color: #007BFF; color: #fff; border: #0062cc 2px solid; text-align: center; }
+.row .tile-indigo { background-color: #6610F2; color: #fff; border: #510bc4 2px solid; text-align: center; }
+.row .tile-purple { background-color: #6F42C1; color: #fff; border: #59339d 2px solid; text-align: center; }
+.row .tile-pink { background-color: #E83E8C; color: #fff; border: #d91a72 2px solid; text-align: center; }
+.row .tile-red { background-color: #DC3545; color: #fff; border: #bd2130 2px solid; text-align: center; }
+.row .tile-orange { background-color: #FD7E14; color: #000; border: #dc6502 2px solid; text-align: center; }
+.row .tile-yellow { background-color: #FFC107; color: #000; border: #d39e00 2px solid; text-align: center; }
+.row .tile-green { background-color: #28A745; color: #fff; border: #1e7e34 2px solid; text-align: center; }
+.row .tile-teal { background-color: #20C997; color: #000; border: #199d76 2px solid; text-align: center; }
+.row .tile-cyan { background-color: #17A2B8; color: #fff; border: #117a8b 2px solid; text-align: center; }
+.row .tile-white { background-color: #FFFFFF; color: #000; border: #e6e6e6 2px solid; text-align: center; }
+.row .tile-gray { background-color: #6C757D; color: #fff; border: #545b62 2px solid; text-align: center; }
+.row .tile-gray-dark { background-color: #343A40; color: #fff; border: #1d2124 2px solid; text-align: center; }
+.row .tile-black { background-color: #000000; color: #fff; border: black 2px solid; text-align: center; }

@@ -1,0 +1,17 @@
+// Created by Nicholas J. Phillips (LagSwitchedVirginity) @ 1/16/2019
+@import "../../../variables";
+@import "compass/utilities/color/contrast";
+
+.row {
+	.tile {
+		margin: 2px;
+		text-align: center;
+	}
+	@each $name, $value in $bst-colors {
+		.tile-#{$name} {
+			@include contrasted($value);
+			border: darken($value, 10%) 2px solid;
+			text-align: center;
+		}
+	}
+}
