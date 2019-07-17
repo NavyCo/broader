@@ -1,0 +1,33 @@
+<!-- Created by Nicholas J. Phillips (LagSwitchedVirginity) @ 7/17/2019 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Title</title>
+	<!--<link rel="stylesheet" type="text/css" href="../stylesheets/text/fractions.css">-->
+	<style type="text/css">
+		.frac { display: inline-block; text-align: center; vertical-align: middle; }
+
+		.frac :first-child { border-bottom: 1px solid black; display: block; }
+
+		.frac :last-child { border-top: 1px solid black; display: block; }
+	</style>
+	<script>
+		function random(max, min) {
+			return Math.floor((Math.random() * max) + min);
+		}
+
+		function next() {
+			let r1 = random(999, 1);
+			let r2 = random(999, 1);
+			document.querySelector(".frac > span:nth-child(1)").innerText = r1;
+			document.querySelector(".frac > span:nth-child(2)").innerText = r2;
+			document.querySelector(".calc").innerText = r1 / r2;
+		}
+	</script>
+</head>
+<body>
+<p><span class="frac"><span>1</span><span>4</span></span> is <span class="calc">0.25</span></p>
+<button onclick="next()">Random fraction</button>
+</body>
+</html>

@@ -1,6 +1,4 @@
-.container.is-halfheight, .container.is-fullheight, .container-fluid.is-halfheight, .container-fluid.is-fullheight { align-items: center; display: flex; margin-bottom: 0; }
-.container.is-halfheight > .container, .container.is-halfheight > .container-fluid, .container-fluid.is-halfheight > .container, .container-fluid.is-halfheight > .container-fluid { flex-grow: 1; flex-shrink: 1; }
-.container.is-halfheight, .container-fluid.is-halfheight { min-height: 50vh; content: ''; }
+.container.is-halfheight, .container-fluid.is-halfheight { min-height: 50vh; }
 .container.is-fullheight, .container-fluid.is-fullheight { min-height: 100vh; }
 @media (min-width: 540px) { .container.is-fullheight-sm, .container-fluid.is-fullheight-sm { min-height: 100vh; } }
 @media (min-width: 540px) { .container.is-halfheight-sm, .container-fluid.is-halfheight-sm { min-height: 50vh; } }

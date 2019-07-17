@@ -1,5 +1,3 @@
-.highlight-blue.is-halfheight, .highlight-blue.is-fullheight, .highlight-clean.is-halfheight, .highlight-clean.is-fullheight, .highlight-phone.is-halfheight, .highlight-phone.is-fullheight { align-items: center; display: flex; margin-bottom: 0; }
-.highlight-blue.is-halfheight > .container, .highlight-blue.is-halfheight > .container-fluid, .highlight-clean.is-halfheight > .container, .highlight-clean.is-halfheight > .container-fluid, .highlight-phone.is-halfheight > .container, .highlight-phone.is-halfheight > .container-fluid { flex-grow: 1; flex-shrink: 1; }
 .highlight-blue.is-halfheight, .highlight-clean.is-halfheight, .highlight-phone.is-halfheight { min-height: 50vh; }
 .highlight-blue.is-fullheight, .highlight-clean.is-fullheight, .highlight-phone.is-fullheight { min-height: 100vh; }
 @media (min-width: 540px) { .highlight-blue.is-fullheight-sm, .highlight-clean.is-fullheight-sm, .highlight-phone.is-fullheight-sm { min-height: 100vh; } }

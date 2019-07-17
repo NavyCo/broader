@@ -1,0 +1,3 @@
+.frac { display: inline-block; text-align: center; vertical-align: middle; }
+.frac :first-child { border-bottom: 1px solid black; display: block; }
+.frac :last-child { border-top: 1px solid black; display: block; }

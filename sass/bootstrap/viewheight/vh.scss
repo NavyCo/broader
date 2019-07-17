@@ -3,6 +3,16 @@
  * |
  * Bulma.io hero inspired
  **/
+.vh-centered {
+	align-items: center;
+	display: flex;
+	& > :last-child,
+	& > :first-child,
+	& > :only-child {
+		flex-grow: 1;
+		flex-shrink: 1;
+	}
+}
 /* container */
 @import "container-vh";
 /* jumbotron*/

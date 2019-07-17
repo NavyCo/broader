@@ -5,15 +5,15 @@
 .highlight-phone {
 	&.is-halfheight,
 	&.is-fullheight {
-		align-items: center;
-		display: flex;
-		margin-bottom: 0;
+		//align-items: center;
+		//display: flex;
+		//margin-bottom: 0;
 	}
 
 	&.is-halfheight > .container,
 	&.is-halfheight > .container-fluid {
-		flex-grow: 1;
-		flex-shrink: 1;
+		//flex-grow: 1;
+		//flex-shrink: 1;
 	}
 
 	&.is-halfheight {

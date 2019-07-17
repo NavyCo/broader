@@ -1,9 +1,7 @@
 /** Created by Nicholas J. Phillips (LagSwitchedVirginity) @ 1/16/2019 | Bulma.io hero inspired */
 /* -- Regular Bootstrap stuff -- */
 /* container */
-.container.is-halfheight, .container.is-fullheight, .container-fluid.is-halfheight, .container-fluid.is-fullheight { align-items: center; display: flex; margin-bottom: 0; }
-.container.is-halfheight > .container, .container.is-halfheight > .container-fluid, .container-fluid.is-halfheight > .container, .container-fluid.is-halfheight > .container-fluid { flex-grow: 1; flex-shrink: 1; }
-.container.is-halfheight, .container-fluid.is-halfheight { min-height: 50vh; content: ''; }
+.container.is-halfheight, .container-fluid.is-halfheight { min-height: 50vh; }
 .container.is-fullheight, .container-fluid.is-fullheight { min-height: 100vh; }
 @media (min-width: 540px) { .container.is-fullheight-sm, .container-fluid.is-fullheight-sm { min-height: 100vh; } }
 @media (min-width: 540px) { .container.is-halfheight-sm, .container-fluid.is-halfheight-sm { min-height: 50vh; } }
@@ -35,8 +33,6 @@
 @media (min-width: 1140px) { .container.is-100vh-xl, .container-fluid.is-100vh-xl { min-height: 100vh; } }
 
 /* jumbotron*/
-.jumbotron.is-halfheight, .jumbotron.is-fullheight, .jumbotron-fluid.is-halfheight, .jumbotron-fluid.is-fullheight { align-items: center; display: flex; margin-bottom: 0; }
-.jumbotron.is-halfheight > .container, .jumbotron.is-halfheight > .container-fluid, .jumbotron-fluid.is-halfheight > .container, .jumbotron-fluid.is-halfheight > .container-fluid { flex-grow: 1; flex-shrink: 1; }
 .jumbotron.is-halfheight, .jumbotron-fluid.is-halfheight { min-height: 50vh; }
 .jumbotron.is-fullheight, .jumbotron-fluid.is-fullheight { min-height: 100vh; }
 @media (min-width: 540px) { .jumbotron.is-fullheight-sm, .jumbotron-fluid.is-fullheight-sm { min-height: 100vh; } }
@@ -69,8 +65,6 @@
 @media (min-width: 1140px) { .jumbotron.is-100vh-xl, .jumbotron-fluid.is-100vh-xl { min-height: 100vh; } }
 
 /* footer */
-footer.is-halfheight, footer.is-fullheight { align-items: center; margin-bottom: 0; }
-footer.is-halfheight > .container, footer.is-halfheight > .container-fluid { flex-grow: 1; flex-shrink: 1; }
 footer.is-halfheight { min-height: 50vh; }
 footer.is-fullheight { min-height: 100vh; }
 @media (min-width: 540px) { footer.is-fullheight-sm { min-height: 100vh; } }
@@ -104,8 +98,6 @@ footer.is-100vh { min-height: 100vh; }
 
 /* -- Custom Bootstrap stuff -- */
 /* highlight */
-.highlight-blue.is-halfheight, .highlight-blue.is-fullheight, .highlight-clean.is-halfheight, .highlight-clean.is-fullheight, .highlight-phone.is-halfheight, .highlight-phone.is-fullheight { align-items: center; display: flex; margin-bottom: 0; }
-.highlight-blue.is-halfheight > .container, .highlight-blue.is-halfheight > .container-fluid, .highlight-clean.is-halfheight > .container, .highlight-clean.is-halfheight > .container-fluid, .highlight-phone.is-halfheight > .container, .highlight-phone.is-halfheight > .container-fluid { flex-grow: 1; flex-shrink: 1; }
 .highlight-blue.is-halfheight, .highlight-clean.is-halfheight, .highlight-phone.is-halfheight { min-height: 50vh; }
 .highlight-blue.is-fullheight, .highlight-clean.is-fullheight, .highlight-phone.is-fullheight { min-height: 100vh; }
 @media (min-width: 540px) { .highlight-blue.is-fullheight-sm, .highlight-clean.is-fullheight-sm, .highlight-phone.is-fullheight-sm { min-height: 100vh; } }

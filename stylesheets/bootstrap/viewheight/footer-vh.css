@@ -1,5 +1,3 @@
-footer.is-halfheight, footer.is-fullheight { align-items: center; margin-bottom: 0; }
-footer.is-halfheight > .container, footer.is-halfheight > .container-fluid { flex-grow: 1; flex-shrink: 1; }
 footer.is-halfheight { min-height: 50vh; }
 footer.is-fullheight { min-height: 100vh; }
 @media (min-width: 540px) { footer.is-fullheight-sm { min-height: 100vh; } }
